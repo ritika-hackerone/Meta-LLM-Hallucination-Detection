@@ -140,24 +140,6 @@ streamlit run app.py
 
 ---
 
-## 🗂️ Project Structure
-
-```
-Meta-LLM-Hallucination-Detection/
-├── app.py                  # Streamlit dashboard
-├── pipeline/
-│   ├── llm.py             # Gemini/Claude API
-│   ├── rag.py             # FAISS + embeddings
-│   ├── nli.py             # DeBERTa NLI
-│   └── evaluator.py       # TruthfulQA evaluation
-├── assets/                # Screenshots for README
-├── data/                  # FAISS index (auto-generated)
-├── requirements.txt
-├── setup.py
-└── README.md
-```
-
----
 
 ## 🔮 Future Improvements
 
