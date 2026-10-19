@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+env/
+
+# FAISS index & data (large files, auto-rebuilt)
+data/faiss.index
+data/docs.pkl
+
+# API keys / secrets
+.env
+secrets.py
+config.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter
+*.ipynb_checkpoints
